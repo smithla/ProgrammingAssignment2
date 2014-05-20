@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix - this function acts as a wrapper for the provided
+## matrix. It caches the matrix and provides a local variable for 
+## the matrix inverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
   matInv <- NULL
@@ -22,7 +24,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve - this function takes a matrix wrapper function and
+## returns the inverse of it's contained matrix. If the inverse has
+## not been caculated yet, it is calculated and the inverse is stored
+## in the wrapper. 
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
