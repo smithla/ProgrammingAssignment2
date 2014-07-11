@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+# - updated for 2nd try at class
 
 ## makeCacheMatrix - this function acts as a wrapper for the provided
 ## matrix. It caches the matrix and provides a local variable for 
